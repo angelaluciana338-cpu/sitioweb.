@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto MAR - Educación Tecnológica</title>
+    <link rel="stylesheet" href="decoracion.css">
+      <script src="pagina.js"></script>
+</head>
+<body>
+
+    <header class="Enc">
+        <div class="Log">
+            <h1>Instituto MAR</h1>
+        </div>
+        <nav class="Men">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="Her">
+        <div class="TexHer">
+            <h2>Creamos el mañana desde el presente</h2>
+            <p>Trabajamos haciendo crecer profesionalmente a la gente, y así crece también el desarrollo, por un futuro.</p>
+            <div class="BotHer">
+                <a href="#programas" class="BotPri">Conoce nuestros programas</a>
+                <a href="#registro" class="BotSec">Regístrate</a>
+            </div>
+        </div>
+        <div class="ImgHer">
+            <img src="https://i.pinimg.com/736x/0e/73/f1/0e73f1f92b07a0a31412b73dac8c5e2c.jpg">
+        </div>
+    </section>
+    <section id="beneficios" class="Ben">
+        <h2>¿Cuáles son los beneficios de elegir esta institución?</h2>
+        <div class="ConBen">
+            <div class="Benef">
+                <h3>Educación de calidad</h3>
+                <p>Docentes especializados y programas actualizados.</p>
+            </div>
+            <div class="Benef">
+                <h3>Oportunidades reales</h3>
+                <p>Convenios con empresas y bolsa de trabajo.</p>
+            </div>
+            <div class="Benef">
+                <h3>Modalidad flexible</h3>
+                <p>Estudia a tu ritmo con nuestros horarios flexibles.</p>
+            </div>
+            <div class="Benef">
+                <h3>Acompañamiento</h3>
+                <p>Te apoyamos en cada paso de tu formación.</p>
+            </div>
+        </div>
+    </section>
+    <section id="programas" class="Pro">
+        <h2>Programas</h2>
+        <div class="ConPro">
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/1200x/55/d7/df/55d7df0e5af9b98a3279e0f447ef96de.jpg" alt="Mecánica y Metalurgia">
+                <h3>Mecánica y Metalurgia</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-mecanica')">Ver más</button>
+                <div id="info-mecanica" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $450</p>
+                    <p>Descripción: Formación en procesos industriales y metalúrgicos.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/69/e7/2d/69e72d7c66bbc8a88ac31d12985aa0f4.jpg" alt="Marketing y Publicidad">
+                <h3>Marketing y Publicidad</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-marketing')">Ver más</button>
+                <div id="info-marketing" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $500</p>
+                    <p>Descripción: Estrategias de mercado y comunicación digital.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/42/5c/37/425c3702b57382a9c044918b07a4b727.jpg" alt="Contabilidad e Impuestos">
+                <h3>Contabilidad e Impuestos</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-contabilidad')">Ver más</button>
+                <div id="info-contabilidad" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $450</p>
+                    <p>Descripción: Gestión financiera y tributaria para empresas.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/44/06/b2/4406b28e0c5b5f06dd42961d8c4fbaae.jpg" alt="Sistemas y Cómputo">
+                <h3>Sistemas y Cómputo</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-sistemas')">Ver más</button>
+                <div id="info-sistemas" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $500</p>
+                    <p>Descripción: Desarrollo de software y administración de redes.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/3c/d7/5a/3cd75a2eea3d208f13e478cdd3b6881a.jpg" alt="Administración">
+                <h3>Administración</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-administracion')">Ver más</button>
+                <div id="info-administracion" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $450</p>
+                    <p>Descripción: Gestión de recursos y liderazgo empresarial.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/0f/cc/51/0fcc51de7b3d00f5d874775309441dcc.jpg" alt="Electricidad y Energía">
+                <h3>Electricidad y Energía</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-electricidad')">Ver más</button>
+                <div id="info-electricidad" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $500</p>
+                    <p>Descripción: Instalaciones eléctricas y energías renovables.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/64/3a/28/643a2819fade0b2b855d078d195684d7.jpg" alt="Construcción e Ingeniería Civil">
+                <h3>Construcción e Ingeniería Civil</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-construccion')">Ver más</button>
+                <div id="info-construccion" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $450</p>
+                    <p>Descripción: Diseño y ejecución de obras civiles.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/1200x/ea/15/9d/ea159df710e88d0ccbb33209cc2f4568.jpg" alt="Diseño y Moda">
+                <h3>Diseño y Moda</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-diseno')">Ver más</button>
+                <div id="info-diseno" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $500</p>
+                    <p>Descripción: Creación de prendas y tendencias visuales.</p>
+                </div>
+            </div>
+            <div class="TarPro">
+                <img src="https://i.pinimg.com/736x/63/7d/85/637d8538d940bdac35b24f78554e8f22.jpg" alt="Electrónica y Automatización">
+                <h3>Electrónica y Automatización</h3>
+                <button class="BotVer" onclick="mostrarInfo('info-electronica')">Ver más</button>
+                <div id="info-electronica" class="InfOcu">
+                    <p><strong>Duración:</strong> 4 años</p>
+                    <p><strong>Modalidad:</strong> Virtual, Presencial e Híbrida</p>
+                    <p><strong>Mensualidad:</strong> $450</p>
+                    <p>Descripción: Sistemas de control y robótica industrial.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="registro" class="Reg">
+        <div class="InfReg">
+            <h2>Empieza tu carrera en MAR</h2>
+            <p>Llena el formulario para empezar con el primer paso hacia tu futuro</p>
+        </div>
+        
+        <div class="ConFor" id="contenedor-formulario">
+            <h3>Inscríbete</h3>
+            
+            <form id="formulario-inscripcion" onsubmit="event.preventDefault(); procesarFormulario();">
+                <div class="GrupRad">
+                    <label><input type="radio" name="modalidad" value="Presencial" required> Presencial</label>
+                    <label><input type="radio" name="modalidad" value="SemiPresencial"> Semi Presencial</label>
+                    <label><input type="radio" name="modalidad" value="Virtual"> 100% Virtual</label>
+                </div>
+                <div class="FilDob">
+                    <input type="text" id="nombre" placeholder="Nombre*" required>
+                    <input type="text" id="apellido" placeholder="Apellido*" required>
+                </div>
+                <div class="FilDob">
+                    <input type="tel" id="celular" placeholder="Celular*" required>
+                    <input type="text" id="dni" placeholder="DNI*" required>
+                </div>
+                <input type="email" id="correo" placeholder="Correo_electrónico@gmail.com" required>
+                <div class="GrupChe">
+                    <label>
+                        <input type="checkbox" required> Declaro expresamente haber leído y aceptado las Políticas de Privacidad.
+                    </label>
+                </div>
+
+                <div class="GrupChe">
+                    <label>
+                        <input type="checkbox"> Autorizo el uso de mis datos para fines publicitarios.
+                    </label>
+                </div>
+
+                <p class="Obl">(*) Campos obligatorios</p>
+
+                <div class="PieFor">
+                    <span>1/1</span>
+                    <button type="submit" class="BotSig">Siguiente</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="Pie">
+        <div class="ConPie">
+            <div class="LogPie">
+                <h3>Instituto MAR</h3>
+                <p>Formamos profesionales técnicos con excelencia y compromiso.</p>
+            </div>
+            <div class="DerPie">
+                <p>&copy; 2026 Instituto MAR. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,345 @@
+body {
+    background-color: #FFDF9F; 
+    color: #4A1521; 
+    line-height: 1.6;
+}
+.Enc {
+    background-color: #4A1521;
+    color: #FFDF9F;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Log h1 {
+    font-size: 1.8rem;
+    color: #EBB045;
+}
+
+.Men ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Men a {
+    color: #FFDF9F;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Her {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 10%;
+    background-color: #8C2B32;
+    color: #FFDF9F;
+    flex-wrap: wrap;
+}
+
+.TexHer {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 5%;
+}
+
+.TexHer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+    color: #EBB045;
+}
+
+.TexHer p {
+    font-size: 1.2rem;
+    margin-bottom: 8%;
+}
+
+.BotHer {
+    display: flex;
+    gap: 15px;
+}
+
+.BotPri, .BotSec {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.BotPri {
+    background-color: #EBB045;
+    color: #4A1521;
+}
+
+.BotPri:hover {
+    background-color: #d49a35;
+}
+
+.BotSec {
+    background-color: transparent;
+    border: 2px solid #EBB045;
+    color: #EBB045;
+}
+
+.BotSec:hover {
+    background-color: #EBB045;
+    color: #4A1521;
+}
+
+.ImgHer {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.ImgHer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Ben {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #FFDF9F;
+}
+
+.Ben h2 {
+    margin-bottom: 4%;
+    color: #8C2B32;
+}
+
+.ConBen {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Benef {
+    flex: 1;
+    min-width: 200px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-bottom: 5px solid #EBB045;
+}
+
+.Benef h3 {
+    color: #4A1521;
+    margin-bottom: 10px;
+}
+
+.Pro {
+    padding: 5% 10%;
+    background-color: #f9f9f9;
+}
+
+.Pro h2 {
+    text-align: center;
+    margin-bottom: 4%;
+    color: #4A1521;
+}
+
+.ConPro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.TarPro {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.TarPro img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.TarPro h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #4A1521;
+}
+
+.BotVer {
+    background-color: #8C2B32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.BotVer:hover {
+    background-color: #4A1521;
+}
+
+.InfOcu {
+    display: none;
+    padding: 15px;
+    background-color: #FFDF9F;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.Reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+    background-color: #4A1521;
+    color: white;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.InfReg {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.InfReg h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #EBB045;
+}
+
+.ConFor {
+    flex: 1;
+    min-width: 320px;
+    background-color: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.ConFor h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4A1521;
+}
+
+.GrupRad {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.GrupRad label {
+    cursor: pointer;
+}
+
+.FilDob {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.FilDob input {
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.GrupChe {
+    margin-bottom: 15px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.Obl {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.PieFor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.BotSig {
+    background-color: #8C2B32;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.BotSig:hover {
+    background-color: #EBB045;
+    color: #4A1521;
+}
+.Pie {
+    background-color: #4A1521;
+    color: #FFDF9F;
+    text-align: center;
+    padding: 2% 5%;
+    border-top: 5px solid #EBB045;
+}
+
+@media (max-width: 768px) {
+    .Enc {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .Men ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Her, .Reg {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .TexHer {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .BotHer {
+        justify-content: center;
+    }
+
+    .FilDob {
+        flex-direction: column;
+        gap: 0;
+    }
+}
